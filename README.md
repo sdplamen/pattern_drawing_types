@@ -34,7 +34,7 @@ Write a Python script that displays a diamond pattern based on the number of row
   *
 ```
 ### Hint
-3, 2, 1, 0, 1, 2, 3 space
+3, 2, 1, 0, 1, 2, 3 space\
 1, 3, 5, 7, 5, 3, 1 star
  
 ### Pattern 4: Left-angled Triangle
@@ -69,7 +69,7 @@ Create a Python script that prints a pyramid pattern based on the user-input num
 *******
 ```
 ### Hint
-3, 2, 1, 0 space
+3, 2, 1, 0 space\
 1, 3, 5, 7 star
  
 ➡ Instructions:

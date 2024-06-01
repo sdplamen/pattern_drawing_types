@@ -9,7 +9,7 @@ for _ in range(m - (m - 2) - 1):
     print(m * '*')
     for _ in range(m - 2):
         print('*' + (m - 2) * ' ' + '*')
-print(m * '*')
+    print(m * '*')
 
 # Pattern 3: Diamond
 l = int(input())
@@ -29,7 +29,7 @@ for _ in range(o - (o - 2) - 1):
     print(o * '*')
     for _ in range(o - 2):
         print('*' + (o - 2) * ' ' + '*')
-print(o * '*')
+    print(o * '*')
 
 # Pattern 6: Pyramid
 p = int(input())
@@ -37,3 +37,5 @@ for d in range(p):
     print(' ' * (p - d), '*' * (d * 2 + 1))
 for e in range(p - 2, -1, -1):
     print(' ' * (p - e), '*' * (e * 2 + 1))
+
+

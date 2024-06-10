@@ -38,4 +38,23 @@ for d in range(p):
 for e in range(p - 2, -1, -1):
     print(' ' * (p - e), '*' * (e * 2 + 1))
 
+# Pattern 7: Square Frame
+o = int(input())
+for _ in range(o - (o - 2) - 1):
+    print(o * '*')
+    for _ in range(o - 2):
+        print('*' + (o - 2) * ' ' + '*')
+    print(o * '*')
 
+# Pattern 8: Number pyramid
+n = int(input())
+for a in range(n):
+    for b in range(n):
+        if b % 2 == 0:
+            if (b >= (abs(4 - a) * 2 - 1)):
+                print(b + 2, end='')
+            else:
+                print(' ', end='')
+        else:
+            print(' ', end='')
+    print()

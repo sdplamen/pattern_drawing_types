@@ -76,3 +76,17 @@ def triangle(n):
     return ''
 
 print(triangle(int(input())))
+
+def first_line(n):
+    return 2 * '-' * n
+
+def middle_line(n):
+    if n > 2:
+        return '-' + '\/' * (n - 1) + '-'
+    return ''
+
+num = int(input())
+print(first_line(num))
+for i in range(num - 2):
+    print(middle_line(num))
+print(first_line(num))
